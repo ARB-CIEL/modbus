@@ -35,7 +35,7 @@
             this.textBoxStatut = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
 
-            // labelAdresseIP - étiquette
+            // labelAdresseIP étiquette
             this.labelAdresseIP.AutoSize = true;
             this.labelAdresseIP.Location = new System.Drawing.Point(12, 15);
             this.labelAdresseIP.Name = "labelAdresseIP";
@@ -43,14 +43,14 @@
             this.labelAdresseIP.TabIndex = 0;
             this.labelAdresseIP.Text = " serveur IP :";
 
-            // textBoxAdresseIP - saisie
+            // textBoxAdresseIP  saisie
             this.textBoxAdresseIP.Location = new System.Drawing.Point(83, 12);
             this.textBoxAdresseIP.Name = "textBoxAdresseIP";
             this.textBoxAdresseIP.Size = new System.Drawing.Size(100, 20);
             this.textBoxAdresseIP.TabIndex = 1;
             this.textBoxAdresseIP.Text = "172.17.50.180";
 
-            // buttonConnexion -bouton
+            // buttonConnexion bouton
             this.buttonConnexion.Location = new System.Drawing.Point(200, 10);
             this.buttonConnexion.Name = "buttonConnexion";
             this.buttonConnexion.Size = new System.Drawing.Size(75, 23);
@@ -59,13 +59,14 @@
             this.buttonConnexion.UseVisualStyleBackColor = true;
             this.buttonConnexion.Click += new System.EventHandler(this.buttonConnexion_Click);
 
-            // buttonDeconnexion bouttn
+            // button deconnexion bouttn
             this.buttonDeconnexion.Location = new System.Drawing.Point(290, 10);
             this.buttonDeconnexion.Name = "buttonDeconnexion";
             this.buttonDeconnexion.Size = new System.Drawing.Size(85, 23);
             this.buttonDeconnexion.TabIndex = 3;
             this.buttonDeconnexion.Text = "Deconnexion";
             this.buttonDeconnexion.UseVisualStyleBackColor = true;
+            this.buttonDeconnexion.Click += new System.EventHandler(this.buttonDeconnexion_Click);
 
             // textBoxStatut affichage
             this.textBoxStatut.Location = new System.Drawing.Point(12, 50);
